@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* 'Roboto' */
+}
+
+body {
+    background-color: #DDE7ED;
+}
+
+.section-price {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.section__block-title {
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+
+.section__title {
+    margin-bottom: 10px;
+    font-size: 29px;
+}
+
+.section__text {
+    font-size: 19px;
+}
+
+.section-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 21px;
+}
+
+.section-row__card {
+    background-color: #FFFFFF;
+    width: 220px;
+    height: 364px;
+    padding: 17px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    transition: transform 350ms;
+}
+
+.section-row__card-title {
+    margin-bottom: 6px;
+}
+
+.section-row__item-block {
+    display: flex;
+    align-items: flex-end;
+    /* align-items: baseline; */
+}
+
+.section-row__line {
+    width: 93px;
+    height: 1px;
+    background-color: #DBDBDB;
+}
+
+.section-row__card-title {
+    font-size: 22px;
+}
+
+.section-row__item--left {
+    font-size: 19px;
+    color: #489FD9;
+}
+
+.section-row__item--extra {
+    color: #C7C5C5;
+}
+
+.section-row__button {
+    width: 186px;
+    height: 42px;
+    margin-top: 6px;
+    background-color: #000000;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+.section__block-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 71px;
+}
+
+.section__text-bottom {
+    font-size: 16px;
+}
+
+.section__text-bottom--link {
+    color: #489FD9;
+    text-decoration: none;
+}
+
+
+.section-row__button:hover {
+    background-color: #3e3e3e;
+    transform: scale(1.05);
+}
+
+.section-row__card:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 955px) {
+    .section-row {
+        justify-content: center;
+        margin: 0 121px 71px;
+    }
+}
